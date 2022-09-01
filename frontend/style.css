@@ -1,0 +1,69 @@
+body {
+    color: coral;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+div {
+    color: darkgreen;
+}
+
+.container-1 {
+    background-color: black;
+    height: 100px;
+}
+
+p {
+    height: 80px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1 {
+    color: brown;
+}
+
+#blue {
+    color: blue;
+}
+
+h1.purple {
+    color: purple;
+}
+
+p {
+    color: rgb(30, 255, 0);
+    font-size: 16px;
+}
+
+p.purple {
+    color: pink;
+}
+ */
+
+
+
+
+/* //tag szelektor a leggyengébb, class a második legerősebb, id a legerősebb
+ */
