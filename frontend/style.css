@@ -1,69 +1,57 @@
+/* --- start of CSS reset --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  /*  box-sizing: border-box; */
+  background: transparent;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/* --- end of CSS reset --- */
+
 body {
-    color: coral;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+  color: coral;
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  height: 100vh;
 }
 
-div {
-    color: darkgreen;
+span {
+  display: block;
+  margin-bottom: 20px;
 }
 
-.container-1 {
-    background-color: black;
-    height: 100px;
+.box {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  padding: 30px;
 }
-
-p {
-    height: 80px;
-    font-weight: 300;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* h1 {
-    color: brown;
-}
-
-#blue {
-    color: blue;
-}
-
-h1.purple {
-    color: purple;
-}
-
-p {
-    color: rgb(30, 255, 0);
-    font-size: 16px;
-}
-
-p.purple {
-    color: pink;
-}
- */
-
-
-
-
-/* //tag szelektor a leggyengébb, class a második legerősebb, id a legerősebb
- */
